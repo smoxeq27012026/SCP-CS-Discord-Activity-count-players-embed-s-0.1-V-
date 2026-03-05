@@ -44,7 +44,8 @@
 ## 🖼️ Примеры отображения
 
 <p align="center">
-  <img src="https://media.discordapp.net/attachments/1478713686943334401/1478714481092726784/image.png" width="80%" alt="Preview Stats">
+  <img src="https://media.discordapp.net/attachments/1479118717475360962/1479118742217691219/image.png?ex=69aae02c&is=69a98eac&hm=ed9eaa2adeeede44eadd127782ccc74dcf2d42a77f191028660b18321863d976&=&format=webp&quality=lossless&width=689&height=320" width="80%" alt="Preview Stats">
+  <img src="https://media.discordapp.net/attachments/1479118717475360962/1479119441437524148/image.png?ex=69aae0d3&is=69a98f53&hm=7f1105ef4aff7cad1ff829f862eb01a4b62ffe8b1fd6baf9c1c6e20f931d48fb&=&format=webp&quality=lossless&width=1381&height=468" width="80%" alt="Preview Stats">
 </p>
 
 ---
