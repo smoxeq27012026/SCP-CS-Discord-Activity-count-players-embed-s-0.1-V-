@@ -4,7 +4,7 @@
 
 **Нашли ошибку или желаете предложить что-то к плагинам и последщим его версиям? Вам в https://discord.gg/QJrfDnapv2!**
 > [!IMPORTANT]
-> **Для скачивания перейдите в [Релизы / Releases](https://github.com/smoxeq27012026/SCP-CS-Discord-Activity-count-players-embed-s-0.1-V-/releases).**
+> **Для скачивания перейдите в [Релизы / Releases](https://github.com/smoxeq27012026/SCP-CS-Discord-Activity-count-players-embed-s-0.1-V-/releases). Учтите что первое сообщение не будет обновляться до перезапуска.**
 ## ⚙️ Доступные конфигурации (Config)
 
 | Параметр | Тип | Описание |
