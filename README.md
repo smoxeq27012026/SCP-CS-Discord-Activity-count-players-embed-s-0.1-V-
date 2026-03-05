@@ -1,5 +1,5 @@
 # 📊 Discord Server Activity Activity (SCP:CS) :: ALPHA 0.1V
-
+<img alt="Static Badge" src="https://img.shields.io/badge/By%20Smoxeq%20-%20scp%3Acs?style=for-the-badge&logo=scpfoundation&logoColor=black&label=SCP%3ACLASSIFIED%20SITE%20API&color=blue">
 Этот плагин позволяет выводить динамическую статистику вашего сервера в Discord-канал. Вместо постоянного спама новыми сообщениями, плагин **редактирует** одно существующее сообщение, обновляя онлайн в реальном времени.
 
 **Нашли ошибку или желаете предложить что-то к плагинам и последщим его версиям? Вам в https://discord.gg/QJrfDnapv2!**
