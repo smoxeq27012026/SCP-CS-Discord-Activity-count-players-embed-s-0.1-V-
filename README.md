@@ -1,7 +1,7 @@
 <div align="center">
 
 # 📊 Discord Server Activity (SCP:CS)
-### `ALPHA 0.1V`
+### `latest release: 0.5V`
 
 <img alt="Static Badge" src="https://img.shields.io/badge/By%20Smoxeq%20-%20scp%3Acs?style=for-the-badge&logo=scpfoundation&logoColor=black&label=SCP%3ACLASSIFIED%20SITE%20API&color=blue">
 <a href="https://discord.gg/QJrfDnapv2"><img src="https://img.shields.io/badge/Support-Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
