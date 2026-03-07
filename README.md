@@ -103,9 +103,9 @@ This plugin allows you to display dynamic statistics of your server in a Discord
 ## 🖼️ Предпросмотр / Preview
 
 <p align="center">
-  <img src="https://media.discordapp.net/attachments/1479118717475360962/1479118742217691219/image.png" width="85%" style="border-radius: 10px;">
+  <img src="https://media.discordapp.net/attachments/1479118717475360962/1479118742217691219/image.png?ex=69ad832c&is=69ac31ac&hm=2e62ffd47c9f84c3c2586034b9dca4c1434a9b6a12732d6e8ddc13993f9dc17e&=&format=webp&quality=lossless&width=689&height=320" width="85%" style="border-radius: 10px;">
   <br>
-  <img src="https://media.discordapp.net/attachments/1479118717475360962/1479119441437524148/image.png" width="85%" style="border-radius: 10px;">
+  <img src="https://media.discordapp.net/attachments/1479118717475360962/1479119441437524148/image.png?ex=69ad83d3&is=69ac3253&hm=b0d3b24e574a24ced8b39e33633a19bdeee6cc75b8a138d92c11509cadb09de3&=&format=webp&quality=lossless&width=688&height=233" width="85%" style="border-radius: 10px;">
 </p>
 
 ---
