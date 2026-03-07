@@ -1,52 +1,114 @@
-# 📊 Discord Server Activity Activity (SCP:CS) :: ALPHA 0.1V
+<div align="center">
+
+# 📊 Discord Server Activity (SCP:CS)
+### `ALPHA 0.1V`
+
 <img alt="Static Badge" src="https://img.shields.io/badge/By%20Smoxeq%20-%20scp%3Acs?style=for-the-badge&logo=scpfoundation&logoColor=black&label=SCP%3ACLASSIFIED%20SITE%20API&color=blue">
+<a href="https://discord.gg/QJrfDnapv2"><img src="https://img.shields.io/badge/Support-Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
+
+---
+
+### 🌐 Select Language / Выберите язык
+
+</div>
+
+<details open>
+<summary><b>🇷🇺 Русский (Russian)</b> — <i>Нажмите, чтобы развернуть/свернуть</i></summary>
+
 Этот плагин позволяет выводить динамическую статистику вашего сервера в Discord-канал. Вместо постоянного спама новыми сообщениями, плагин **редактирует** одно существующее сообщение, обновляя онлайн в реальном времени.
-**Read this in other languages: [English](README.en.md)**
-**Нашли ошибку или желаете предложить что-то к плагинам и последщим его версиям? Вам в https://discord.gg/QJrfDnapv2!**
+
 > [!IMPORTANT]
-> **Для скачивания перейдите в [Релизы / Releases](https://github.com/smoxeq27012026/SCP-CS-Discord-Activity-count-players-embed-s-0.1-V-/releases). Учтите что первое сообщение не будет обновляться до перезапуска.**
+> **Для скачивания перейдите в [Релизы / Releases](https://github.com/smoxeq27012026/SCP-CS-Discord-Activity-count-players-embed-s-0.1-V-/releases).**
+> *Учтите, что первое сообщение не будет обновляться до полной настройки и перезапуска.*
+
 ## ⚙️ Доступные конфигурации (Config)
 
 | Параметр | Тип | Описание |
-| :--- | :--- | :--- |
-| `Servername_activity` | string | Название вашего сервера, которое будет в заголовке Embed. |
-| `URLHook_activity` | string | URL вашего Discord Webhook. |
-| `maxplayers`(игровой конфиг оффц.) | int | Максимальное количество игроков (для отображения лимита). |
-| `DiscordMessageId` | string | ID сообщения, которое будет редактироваться (см. инструкцию). |
+| :--- | :---: | :--- |
+| `Servername_activity` | `string` | Название сервера для заголовка Embed. |
+| `URLHook_activity` | `string` | URL вашего Discord Webhook. |
+| `maxplayers` | `int` | Максимальное количество игроков (игровой конфиг). |
+| `DiscordMessageId` | `string` | ID сообщения для редактирования. |
 
 ---
 
 ## 🚀 Инструкция по установке и настройке
-
-Чтобы плагин работал в режиме "обновления", а не "спама", выполните следующие действия:
 
 1. **Тихий режим:** Рекомендуется проводить настройку, когда на сервере **нет онлайна**.
 2. **Первичный запуск:** * Заполните только `URLHook_activity` и `Servername_activity`. 
    * Поле `DiscordMessageId` оставьте **пустым**.
    * Запустите сервер.
 3. **Получение ID:** * После старта раунда в Discord придет новое сообщение (Embed).
-   * Нажмите на него правой кнопкой мыши и выберите **"Копировать ID сообщения"** (у вас должен быть включен Режим разработчика в Discord).
+   * Нажмите на него ПКМ и выберите **"Копировать ID сообщения"** (нужен режим разработчика в Discord).
 4. **Фиксация:** * Вставьте полученный ID в конфиг `DiscordMessageId`.
-   * Перезапустите сервер(дождитесь окончания раунда). Теперь плагин будет изменять именно это сообщение, при каждом перезапуске сервера или раунда.
+   * Перезапустите сервер. Теперь плагин будет изменять именно это сообщение.
 
 > [!WARNING]
-> Если оставить поле `DiscordMessageId` пустым, плагин будет отправлять **новое сообщение при каждом старте раунда**, не удаляя старые.
+> Если оставить поле `DiscordMessageId` пустым, плагин будет отправлять **новое сообщение при каждом старте раунда**.
 
 ---
 
 ## 🛑 Чего делать НЕ стоит
-* **Не удаляйте сообщение** в Discord после того, как вписали его ID в конфиг. Если сообщение удалено, плагин не сможет его редактировать и будет выдавать ошибку.
-* **Не заполняйте ID вручную** "наобум" - это приведет к ошибкам отправки. ID должен быть создан самим вебхуком при первом сообщении когда не был заполнен конфиг: `DiscordMessageId`! (Важно).
-* **Избегайте частых перезагрузок** сервера в моменты пикового онлайна, чтобы не поймать временный лимит (Rate Limit) от API Discord.
+* **Не удаляйте сообщение** в Discord после того, как вписали его ID в конфиг.
+* **Не заполняйте ID вручную** "наобум" — это приведет к ошибкам. ID должен быть создан самим вебхуком.
+* **Избегайте частых перезагрузок**, чтобы не получить временный лимит (Rate Limit) от API Discord.
+
+</details>
+
+<details>
+<summary><b>🇺🇸 English</b> — <i>Click to expand/collapse</i></summary>
+
+This plugin allows you to display dynamic statistics of your server in a Discord channel. Instead of spamming new messages, the plugin **edits** a single existing message, updating the player count in real-time.
+
+> [!IMPORTANT]
+> **To download the plugin, go to [Releases](https://github.com/smoxeq27012026/SCP-CS-Discord-Activity-count-players-embed-s-0.1-V-/releases).**
+> *Note that the first message will not update until the setup is complete and the server is restarted.*
+
+## ⚙️ Available Configurations (Config)
+
+| Parameter | Type | Description |
+| :--- | :---: | :--- |
+| `Servername_activity` | `string` | Your server's name for the Embed title. |
+| `URLHook_activity` | `string` | Your Discord Webhook URL. |
+| `maxplayers` | `int` | Maximum number of players (game config). |
+| `DiscordMessageId` | `string` | The ID of the message to be edited. |
 
 ---
 
-## 🖼️ Примеры отображения
+## 🚀 Installation & Setup Guide
+
+1. **Silent Mode:** It is recommended to perform the setup when there are **no players** online.
+2. **Initial Launch:** * Fill in only `URLHook_activity` and `Servername_activity`.
+   * Leave the `DiscordMessageId` field **empty**.
+   * Start the server.
+3. **Getting the ID:** * Once the round starts, a new message (Embed) will appear in Discord.
+   * Right-click the message and select **"Copy Message ID"** (Developer Mode must be enabled).
+4. **Finalizing:** * Paste the copied ID into the `DiscordMessageId` config field.
+   * Restart the server. Now the plugin will edit this specific message.
+
+> [!WARNING]
+> If you leave the `DiscordMessageId` field empty, the plugin will send a **new message at every round start**.
+
+---
+
+## 🛑 What NOT to do
+* **Do not delete the message** in Discord after saving its ID in the config.
+* **Do not enter a random ID** manually — this will cause errors. The ID must be generated by the webhook itself.
+* **Avoid frequent server restarts** to avoid hitting Discord API Rate Limits.
+
+</details>
+
+---
+
+## 🖼️ Предпросмотр / Preview
 
 <p align="center">
-  <img src="https://media.discordapp.net/attachments/1479118717475360962/1479118742217691219/image.png?ex=69aae02c&is=69a98eac&hm=ed9eaa2adeeede44eadd127782ccc74dcf2d42a77f191028660b18321863d976&=&format=webp&quality=lossless&width=689&height=320" width="80%" alt="Preview Stats">
-  <img src="https://media.discordapp.net/attachments/1479118717475360962/1479119441437524148/image.png?ex=69aae0d3&is=69a98f53&hm=7f1105ef4aff7cad1ff829f862eb01a4b62ffe8b1fd6baf9c1c6e20f931d48fb&=&format=webp&quality=lossless&width=1381&height=468" width="80%" alt="Preview Stats">
+  <img src="https://media.discordapp.net/attachments/1479118717475360962/1479118742217691219/image.png" width="85%" style="border-radius: 10px;">
+  <br>
+  <img src="https://media.discordapp.net/attachments/1479118717475360962/1479119441437524148/image.png" width="85%" style="border-radius: 10px;">
 </p>
 
 ---
-**By Smoxeq (DeltaEX)**
+<div align="center">
+<b>By Smoxeq (DeltaEX)</b>
+</div>
